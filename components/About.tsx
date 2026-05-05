@@ -51,7 +51,7 @@ export default function About() {
           </motion.div>
 
           {/* Right Side: Stats Grid & Skills */}
-          <motion.div
+          {/*<motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
@@ -73,12 +73,57 @@ export default function About() {
               </div>
             ))}
             
-            {/* Professional Skills Tag Cloud */}
+            {/* Professional Skills Tag Cloud *//*
             <div className="col-span-2 mt-4 p-6 bg-gradient-to-br from-indigo-500/5 to-transparent border border-neutral-900 rounded-3xl">
               <h5 className="text-white font-bold mb-4 text-sm uppercase tracking-widest opacity-60">Core Expertise</h5>
               <div className="flex flex-wrap gap-3">
                 {["React.js", "Next.js", "Firebase", "Node.js", "Tailwind CSS", "M-Pesa API", "PesaPal", "AI Integration", "Grok AI", "Render", "Netlify", "TypeScript"].map((skill) => (
                   <span key={skill} className="px-3 py-1 bg-neutral-900 border border-neutral-800 rounded-full text-xs text-neutral-300">
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </motion.div>*/}
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="w-full"
+          >
+            {/* Stats Grid: grid-cols-2 works on most phones, but gap-3 is safer */}
+            <div className="grid grid-cols-2 gap-3 md:gap-6">
+              {stats.map((stat, index) => (
+                <div 
+                  key={index} 
+                  className="bg-[#0A0A0A] border border-neutral-900 p-5 md:p-8 rounded-3xl hover:border-indigo-500/30 transition-colors group"
+                >
+                  <div className="mb-4 p-2 bg-neutral-900 w-fit rounded-xl">
+                    {stat.icon}
+                  </div>
+                  <h4 className="text-xl md:text-3xl font-bold text-white mb-1">{stat.value}</h4>
+                  <p className="text-neutral-500 text-[10px] md:text-sm font-mono uppercase tracking-wider">
+                    {stat.label}
+                  </p>
+                </div>
+              ))}
+            </div>
+            
+            {/* Professional Skills Tag Cloud */}
+            <div className="mt-6 p-5 md:p-8 bg-gradient-to-br from-indigo-500/5 to-transparent border border-neutral-900 rounded-3xl w-full">
+              <h5 className="text-white font-bold mb-6 text-xs uppercase tracking-widest opacity-60">Technical Arsenal</h5>
+              <div className="flex flex-wrap gap-2 md:gap-3">
+                {[
+                  "Node.js", "Express", "React Native", "Grok AI", 
+                  "Render", "Firebase", "M-Pesa API", "TypeScript", 
+                  "Maps API", "Tailwind", "Cloudinary"
+                ].map((skill) => (
+                  <span 
+                    key={skill} 
+                    className="px-3 py-1.5 bg-neutral-900 border border-neutral-800 rounded-lg text-[11px] md:text-xs text-neutral-300 whitespace-nowrap"
+                  >
                     {skill}
                   </span>
                 ))}
