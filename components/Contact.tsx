@@ -40,11 +40,15 @@ export default function Contact() {
             </a>
 
             {/* Resume Link */}
-            <a href="/Leonard_Kombo_Resume.pdf" target="_blank" className="p-8 bg-indigo-600 rounded-3xl hover:bg-indigo-500 transition-all group shadow-lg shadow-indigo-500/10">
-              <FileText className="mx-auto mb-4 text-white" size={28} />
-              <span className="text-white font-bold block">Download CV</span>
-              <span className="text-indigo-200 text-xs mt-1">Full Resume (PDF)</span>
-            </a>
+            <a href="/Leonard_Kombo_FullStack_Engineer.pdf"
+              target="_blank"                 
+              rel="noopener noreferrer"       
+              className="p-8 bg-indigo-600 rounded-3xl hover:bg-indigo-500 transition-all group shadow-lg shadow-indigo-500/10 flex flex-col items-center"
+            >
+             <FileText className="mx-auto mb-4 text-white font-bold" size={28} />
+             <span className="text-white font-bold block text-lg">Download CV</span>
+             <span className="text-indigo-200 text-xs mt-1 italic">Full Technical Resume (PDF)</span>
+              </a>
           </div>
 
           <div className="flex flex-wrap justify-center gap-8 text-neutral-500 border-t border-neutral-900 pt-12">

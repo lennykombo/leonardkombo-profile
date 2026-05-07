@@ -65,9 +65,9 @@ export const projects: Project[] = [
     id: 5,
     title: "Lagos Suya",
     category: "Ordering App",
-    description: "Digital Menu & Order Management System.",
-    longDescription: "Digitized the ordering process for boutique restaurants. Developed a high-conversion UI for menu browsing, cart management, and order placement workflows.",
-    tags: ["React", "Cloudinary", "UX Design", "Firebase Store", "Tailwind"],
+    description: "Digital Menu & Transactional Order Management Ecosystem.",
+    longDescription: "Digitized the end-to-end commerce flow for a high-traffic restaurant. Developed a high-conversion UI for menu browsing, Integrated PesaPal for secure multi-channel payments and developed a high-concurrency cart system to handle real-time orders and transactional verification.",
+    tags: ["React", "Cloudinary", "UX Design", "PesaPal API", "Firebase", "Transactional Logic", "Tailwind"],
     link: "https://lagossuyanairobi.com/order-online/",
    // github: "https://github.com/lennykombo/lagossuyaspot-menu",
      github: {
