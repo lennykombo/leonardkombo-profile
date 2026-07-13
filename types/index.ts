@@ -1,7 +1,7 @@
 export interface Project {
   id: number;
   title: string;
-  category: "AI & SaaS" | "Fintech" | "Marketplace" | "Community" | "Event Tech"| "Ordering App";
+  category: "AI & SaaS" | "Fintech" | "Marketplace" | "Community" | "Event Tech"|"Film Plartform";
   description: string;
   longDescription: string;
   tags: string[];

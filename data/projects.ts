@@ -62,20 +62,35 @@ export const projects: Project[] = [
     image: "/projects/mtta.png"
   },
   {
-    id: 5,
-    title: "Lagos Suya",
-    category: "Ordering App",
-    description: "Digital Menu & Transactional Order Management Ecosystem.",
-    longDescription: "Digitized the end-to-end commerce flow for a high-traffic restaurant. Developed a high-conversion UI for menu browsing, Integrated PesaPal for secure multi-channel payments and developed a high-concurrency cart system to handle real-time orders and transactional verification.",
-    tags: ["React", "Cloudinary", "UX Design", "PesaPal API", "Firebase", "Transactional Logic", "Tailwind"],
-    link: "https://lagossuyanairobi.com/order-online/",
-   // github: "https://github.com/lennykombo/lagossuyaspot-menu",
-     github: {
-    web: "https://github.com/lennykombo/lagossuyaspot-menu",
-    mobile: "#"
+  id: 5,
+  title: "VumaFlix",
+  category: "Film Plartform",
+  description: "A pay-per-view movie/ Film platform empowering independent filmmakers to monetize their content.",
+
+  longDescription:
+    "VumaFlix is a streaming platform that helps independent filmmakers earn from their movies while turning viewers into promoters who get rewarded for sharing films they love. Creators earn from every sale. Viewers can share movies they love. Promoters earn rewards when their referrals lead to purchases.",
+
+  tags: [
+    "React",
+    "Firebase",
+    "Tailwind CSS",
+    "M-Pesa",
+    "Video Streaming",
+    "Bunny.net",
+    "Authentication",
+    "Firestore",
+    "Netlify"
+  ],
+
+  link: "https://vumaflix.com/",
+
+  github: {
+    web: "https://github.com/lennykombo/playa-video",
+    mobile: "#" // or "#"
   },
-    image: "/projects/lagos-suya.jpg"
-  },
+
+  image: "/projects/og-banner.png"
+},
   {
     id: 6,
     title: "Art Community Hub",
