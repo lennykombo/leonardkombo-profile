@@ -40,7 +40,7 @@ export default function Contact() {
             </a>
 
             {/* Resume Link */}
-            <a href="/Leonard_Kombo_FullStack_Engineer.pdf"
+            <a href="/Leonard_Kombo_FullStack_Software_Developer.pdf"
               target="_blank"                 
               rel="noopener noreferrer"       
               className="p-8 bg-indigo-600 rounded-3xl hover:bg-indigo-500 transition-all group shadow-lg shadow-indigo-500/10 flex flex-col items-center"
