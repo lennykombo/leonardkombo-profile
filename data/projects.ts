@@ -16,38 +16,9 @@ export const projects: Project[] = [
   },
   image: "/projects/reserve-me.png" 
 },
+ 
   {
     id: 2,
-    title: "Transaction Reconciler",
-    category: "Fintech",
-    description: "Automated Financial Reconciliation & Matching System.",
-    longDescription: "Engineered a complex logic-based system to automate the matching of financial records. Developed custom algorithms to detect discrepancies, reducing manual audit work by 80%. Both in mobile app and a dashboard for reconciliation",
-    tags: ["React", "React Native", "Cloudinary", "JavaScript logic", "Data Validation", "Firebase", "Tailwind"],
-    link: "https://dukarecon.netlify.app/",
-   // github: "https://github.com/lennykombo/Dukarecon-dashboard",
-    github: {
-    web: "https://github.com/lennykombo/Dukarecon-dashboard",
-    mobile: "https://github.com/lennykombo/DukaRecon" 
-  },
-    image: "/projects/reconciliation.jpg"
-  },
-  {
-    id: 3,
-    title: "HustleWave360",
-    category: "Marketplace",
-    description: "B2B Influencer Marketing & Campaign Management.",
-    longDescription: "Built a digital marketplace connecting brands with influencers. Features included campaign booking workflows and real-time engagement metric visualizations.",
-    tags: ["React", "Cloudinary", "Firebase Auth", "Marketplace Logic", "Tailwind"],
-    link: "https://hustlewave360.netlify.app/",
-    //github: "https://github.com/lennykombo/Tangazo-chapchap",
-    github: {
-    web: "https://github.com/lennykombo/Tangazo-chapchap",
-    mobile: "#"
-  },
-    image: "/projects/hustlewave.png"
-  },
-  {
-    id: 4,
     title: "MTTA Awards",
     category: "Event Tech",
     description: "High-Traffic Live Voting & Engagement Platform.",
@@ -62,7 +33,7 @@ export const projects: Project[] = [
     image: "/projects/mtta.png"
   },
   {
-  id: 5,
+  id: 3,
   title: "VumaFlix",
   category: "Film Plartform",
   description: "A pay-per-view movie/ Film platform empowering independent filmmakers to monetize their content.",
@@ -91,6 +62,36 @@ export const projects: Project[] = [
 
   image: "/projects/og-banner.png"
 },
+ {
+    id: 4,
+    title: "Transaction Reconciler",
+    category: "Fintech",
+    description: "Automated Financial Reconciliation & Matching System.",
+    longDescription: "Engineered a complex logic-based system to automate the matching of financial records. Developed custom algorithms to detect discrepancies, reducing manual audit work by 80%. Both in mobile app and a dashboard for reconciliation",
+    tags: ["React", "React Native", "Cloudinary", "JavaScript logic", "Data Validation", "Firebase", "Tailwind"],
+    link: "https://dukarecon.netlify.app/",
+   // github: "https://github.com/lennykombo/Dukarecon-dashboard",
+    github: {
+    web: "https://github.com/lennykombo/Dukarecon-dashboard",
+    mobile: "https://github.com/lennykombo/DukaRecon" 
+  },
+    image: "/projects/reconciliation.jpg"
+  },
+  {
+    id: 5,
+    title: "HustleWave360",
+    category: "Marketplace",
+    description: "B2B Influencer Marketing & Campaign Management.",
+    longDescription: "Built a digital marketplace connecting brands with influencers. Features included campaign booking workflows and real-time engagement metric visualizations.",
+    tags: ["React", "Cloudinary", "Firebase Auth", "Marketplace Logic", "Tailwind"],
+    link: "https://hustlewave360.netlify.app/",
+    //github: "https://github.com/lennykombo/Tangazo-chapchap",
+    github: {
+    web: "https://github.com/lennykombo/Tangazo-chapchap",
+    mobile: "#"
+  },
+    image: "/projects/hustlewave.png"
+  },
   {
     id: 6,
     title: "Art Community Hub",
