@@ -24,7 +24,7 @@ export const projects: Project[] = [
     description: "High-Traffic Live Voting & Engagement Platform.",
     longDescription: "Deployed a real-time voting ecosystem used in a live event environment. Scaled to handle concurrent public engagement with instant vote tallying via Firebase.",
     tags: ["React", "Cloudinary", "Firebase Real-time DB", "Live Scaling"],
-    link: "https://mzinyitaitatavetaawards.netlify.app/",
+    link: "https://mzinyiawards.com/",
    // github: "https://github.com/lennykombo/awards",
     github: {
     web: "https://github.com/lennykombo/awards",
@@ -106,5 +106,36 @@ export const projects: Project[] = [
     mobile: "#"
   },
     image: "/projects/art-community.png"
-  }
+  },
+   {
+  id: 7,
+  title: "helpPilot",
+  category: "AI Marketing Platform",
+  description: "An AI-powered marketing platform helping small businesses create marketing content, plan campaigns, and manage social media more efficiently.",
+
+  longDescription:
+    "GrowthPilot is an AI marketing assistant designed to help small businesses simplify their marketing. Businesses can set up their profiles, define their brand voice, generate marketing content, create campaigns, and organize content for social media. The platform aims to reduce the time and effort required to plan and execute marketing activities, helping businesses maintain a consistent online presence.",
+
+  tags: [
+    "React",
+    "JavaScript",
+    "Tailwind CSS",
+    "Node.js",
+    "Firebase",
+    "Firestore",
+    "Firebase Authentication",
+    "AI Integration",
+    "Content Generation",
+    "Social Media Marketing"
+  ],
+
+  link: "https://helppilot.netlify.app/",
+
+  github: {
+    web: "https://github.com/lennykombo/Business-growth-ai",
+    mobile: "#"
+  },
+
+  image: "/projects/helppilot.png"
+},
 ];
